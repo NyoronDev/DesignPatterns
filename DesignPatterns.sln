@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - SOLID Principles", "01 - SOLID Principles", "{CFD58648-F956-44ED-93E6-DFF6DD0B6313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{A9068B74-3430-42EF-9D81-8155FE87D0B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{A9068B74-3430-42EF-9D81-8155FE87D0B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Builder", "02 - Builder", "{F1F8E6E1-6F57-464A-997E-3C79995180FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{D62CD94A-2CC8-4545-8BB0-6C7038356A7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{A9068B74-3430-42EF-9D81-8155FE87D0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9068B74-3430-42EF-9D81-8155FE87D0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9068B74-3430-42EF-9D81-8155FE87D0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62CD94A-2CC8-4545-8BB0-6C7038356A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62CD94A-2CC8-4545-8BB0-6C7038356A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62CD94A-2CC8-4545-8BB0-6C7038356A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62CD94A-2CC8-4545-8BB0-6C7038356A7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A9068B74-3430-42EF-9D81-8155FE87D0B3} = {CFD58648-F956-44ED-93E6-DFF6DD0B6313}
+		{D62CD94A-2CC8-4545-8BB0-6C7038356A7E} = {F1F8E6E1-6F57-464A-997E-3C79995180FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9C74453-009F-4A83-9C82-2098EBB0B121}
