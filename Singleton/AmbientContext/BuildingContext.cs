@@ -6,7 +6,7 @@ namespace Singleton.AmbientContext
     public class BuildingContext : IDisposable
     {
         // We need to add a list of stack of values (depending of the context)
-        public int WallHeight { get; set; }
+        public static int WallHeight { get; set; }
 
         private static Stack<BuildingContext> stack = new Stack<BuildingContext>();
 
